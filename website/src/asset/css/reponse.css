@@ -1,0 +1,126 @@
+@media (min-width: 1200px) {
+    .max-width: {
+        max-width: 1170px !important;
+    }
+
+}
+@media only screen and (max-width: 1200px) {
+   .navbar-nav {
+    background: #0000004f !important;
+    width: 55% !important;
+    margin-top: 5px !important;
+}
+.nav-menu {
+    width: 100%;
+}
+.nav-link {
+    text-align: left !important;
+    padding-left: 10px !important;
+}
+}
+@media only screen and (max-width: 992px) {
+   .navbar-nav {
+    background: #0000004f;
+    width: 54% !important;
+    margin-top: 5px !important;
+}
+.nav-menu {
+    width: 100% !important;
+}
+.nav-link {
+    text-align: left !important;
+    padding-left: 10px !important;
+}
+}
+@media only screen and (max-width: 767px) {
+   .navbar-nav {
+    background: #0000004f !important;
+    width: 52% !important;
+    margin-top: 5px !important;
+}
+.nav-menu {
+    width: 100% !important;
+}
+.nav-link {
+    text-align: left !important;
+    padding-left: 10px !important;
+}
+}
+@media (max-width: 576px) {
+
+    /*header*/
+    .bg {
+        height: 730px ;
+    }
+
+    .bottom {
+        margin-bottom: 15px !important;
+    }
+
+    .navbar-nav {
+        background: #0000004f;
+        width: 50%;
+        margin-top: 5px;
+    }
+
+    .login {
+        position: absolute !important;
+        top: 15.55%;
+    }
+
+    .pos-r {
+        right: 30px;
+    }
+
+    .bd {
+        font-size: 14px;
+        margin: 0px 5px;
+        padding: 5px 10px;
+    }
+
+    .nav-menu {
+        width: 100%;
+    }
+
+    .nav-link {
+        text-align: left;
+        padding-left: 10px !important;
+    }
+
+    .logo {
+        margin-left: 15px;
+        width: 50%;
+    }
+
+    .boxt-text h1 {
+        font-size: 25px;
+    }
+
+    .text-h2 {
+        font-size: 42px;
+    }
+
+    .btn {
+        background: #fff !important;
+        border: 2px solid #FFFFFF !important;
+        box-sizing: border-box !important;
+        box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2) !important;
+        border-radius: 11px !important;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold !important;
+        font-size: 14px !important;
+        line-height: 150% !important;
+        color: #48AF74 !important;
+        padding: 6px 7px !important;
+    }
+
+    .boxt-text {
+        position: none !important;
+        margin-top: 35px;
+    }
+
+    .box-img {
+        width: 95%;
+    }
+}
